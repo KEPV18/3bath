@@ -3,8 +3,8 @@ body {
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     margin: 0;
     padding: 0;
-    background-color: #252b2b;
-    color: #efdfc5;
+    background-color: #efdfc5;
+    color: #252b2b;
     line-height: 1.6;
 }
 
@@ -70,7 +70,7 @@ body {
 .section-content h2 {
     margin-top: 0;
     font-size: 3.5rem;
-    color: #efdfc5;
+    color: #252b2b;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -101,7 +101,7 @@ body {
 
 .host-details {
     font-size: 2rem;
-    color: #efdfc5;
+    color: #252b2b;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
@@ -115,13 +115,13 @@ body {
     border: 3px solid #8f0b13;
     border-radius: 10px;
     font-size: 1.5rem;
-    background-color: #efdfc5;
-    color: #380f17;
+    background-color: #252b2b;
+    color: #efdfc5;
 }
 
 #contact-form button {
     padding: 15px 30px;
-    background-color: #dc2011;
+    background-color: #380f17;
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -131,7 +131,7 @@ body {
 }
 
 #contact-form button:hover {
-    background-color: #8f0b13;
+    background-color: #dc2011;
 }
 
 /* Footer Styles */
