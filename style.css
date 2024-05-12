@@ -1,11 +1,11 @@
 /* General Styles */
 body {
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#c5c764;
+    background-color: #032820;
+    color: #fff;
     line-height: 1.6;
-    letter-spacing: 0.05em;
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
 
 /* Header Styles */
 .header {
-    background-color: #333;
+    background: linear-gradient(to right, #80a416, #c5c764);
     color: #fff;
     padding: 20px 0;
 }
@@ -32,8 +32,7 @@ body {
     margin: 0;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #ffd700;
+    letter-spacing: 2px;
 }
 
 .header-nav ul {
@@ -55,26 +54,18 @@ body {
 }
 
 .header-nav a:hover {
-    color: #ffd700;
+    color: #ad9f3c;
 }
 
 /* Section Styles */
 .section-content {
     padding: 40px 0;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .section-content h2 {
     margin-top: 0;
     font-size: 2rem;
-    color: #333;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
+    color: #08652c;
 }
 
 /* Host Styles */
@@ -88,18 +79,12 @@ body {
     max-width: 100px;
     border-radius: 50%;
     margin-right: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.host img:hover {
-    transform: scale(1.1);
+    border: 3px solid #5e7343;
 }
 
 .host-details {
     font-size: 1.2rem;
-    color: #555;
-    line-height: 1.5;
+    color: #ad9f3c;
 }
 
 /* Form Styles */
@@ -108,14 +93,16 @@ body {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #c5c764;
     border-radius: 5px;
     font-size: 1rem;
+    background-color: #fff;
+    color: #032820;
 }
 
 #contact-form button {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #5e7343;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -125,12 +112,12 @@ body {
 }
 
 #contact-form button:hover {
-    background-color: #555;
+    background-color: #ad9f3c;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #333;
+    background-color: #08652c;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -155,5 +142,5 @@ footer {
 }
 
 .footer-nav a:hover {
-    color: #ffd700;
+    color: #c5c764;
 }
