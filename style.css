@@ -1,61 +1,58 @@
 /* Custom CSS */
 body {
-    background-color: #252b2b;
-    color: #efdfc5;
+    background-color: #57659e;
+    color: #443e46;
     font-family: Arial, sans-serif;
   }
   
   .navbar {
-    border-bottom: 1px solid #dc2011;
+    border-bottom: 1px solid #c57284;
   }
   
   .nav-link {
-    color: #efdfc5 !important;
+    color: #f6deb8 !important;
   }
   
   .nav-link:hover {
-    color: #dc2011 !important;
+    color: #908ca4 !important;
   }
   
   .btn-primary {
-    background-color: #380f17;
-    border-color: #380f17;
+    background-color: #ff5b60;
+    border-color: #ff5b60;
   }
   
   .btn-primary:hover {
-    background-color: #8f0b13;
-    border-color: #8f0b13;
+    background-color: #c57284;
+    border-color: #c57284;
   }
   
   .card {
-    background-color: #4c4f54;
+    background-color: #908ca4;
     border: none;
-    color: #efdfc5;
+    color: #443e46;
   }
   
-  .card-title {
-    color: #efdfc5;
-  }
-  
+  .card-title,
   .card-text {
-    color: #efdfc5;
+    color: #443e46;
   }
   
   .btn-outline-light {
-    color: #efdfc5;
-    border-color: #efdfc5;
+    color: #f6deb8;
+    border-color: #f6deb8;
   }
   
   .btn-outline-light:hover {
-    color: #dc2011;
-    border-color: #dc2011;
+    color: #ff5b60;
+    border-color: #ff5b60;
   }
   
   .bg-dark {
-    background-color: #252b2b !important;
+    background-color: #443e46 !important;
   }
   
   .text-white {
-    color: #efdfc5 !important;
+    color: #f6deb8 !important;
   }
   
