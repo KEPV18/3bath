@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.header-nav a:hover {
+    color: #ffd700;
+}
+
+/* Section Styles */
+.section-content {
+    padding: 40px 0;
+}
+
+.section-content h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Host Styles */
+.host {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.host img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.host-details {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Form Styles */
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #ffd700;
+}
