@@ -3,8 +3,8 @@ body {
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     margin: 0;
     padding: 0;
-    background-color: #c5c764;
-    color: #032820;
+    background-color: #252b2b;
+    color: #efdfc5;
     line-height: 1.6;
 }
 
@@ -16,7 +16,7 @@ body {
 
 /* Header Styles */
 .header {
-    background: linear-gradient(to bottom, #80a416, #032820);
+    background: linear-gradient(to bottom, #380f17, #8f0b13);
     color: #fff;
     padding: 20px 0;
 }
@@ -55,14 +55,14 @@ body {
 }
 
 .header-nav a:hover {
-    color: #ad9f3c;
+    color: #dc2011;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Section Styles */
 .section-content {
     padding: 60px 0;
-    background-color: #08652c;
+    background-color: #4c4f54;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
@@ -70,7 +70,7 @@ body {
 .section-content h2 {
     margin-top: 0;
     font-size: 3.5rem;
-    color: #c5c764;
+    color: #efdfc5;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -90,7 +90,7 @@ body {
     max-width: 200px;
     border-radius: 50%;
     margin-right: 40px;
-    border: 5px solid #ad9f3c;
+    border: 5px solid #dc2011;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     transition: transform 0.5s ease;
 }
@@ -101,7 +101,7 @@ body {
 
 .host-details {
     font-size: 2rem;
-    color: #fff;
+    color: #efdfc5;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
@@ -112,16 +112,16 @@ body {
     width: 100%;
     padding: 15px;
     margin-bottom: 20px;
-    border: 3px solid #032820;
+    border: 3px solid #8f0b13;
     border-radius: 10px;
     font-size: 1.5rem;
-    background-color: #fff;
-    color: #032820;
+    background-color: #efdfc5;
+    color: #380f17;
 }
 
 #contact-form button {
     padding: 15px 30px;
-    background-color: #80a416;
+    background-color: #dc2011;
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -131,13 +131,13 @@ body {
 }
 
 #contact-form button:hover {
-    background-color: #ad9f3c;
+    background-color: #8f0b13;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #032820;
-    color: #fff;
+    background-color: #252b2b;
+    color: #efdfc5;
     padding: 60px 0;
     text-align: center;
 }
@@ -155,12 +155,12 @@ footer {
 
 .footer-nav a {
     text-decoration: none;
-    color: #fff;
+    color: #efdfc5;
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }
 
 .footer-nav a:hover {
-    color: #c5c764;
+    color: #dc2011;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
